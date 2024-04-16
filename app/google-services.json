@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "734060883125",
+    "project_id": "we-care-for-pets-c68f4",
+    "storage_bucket": "we-care-for-pets-c68f4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:734060883125:android:20b09cebd215ca81ae22fc",
+        "android_client_info": {
+          "package_name": "com.example.wecareforpets_"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCYBHVpTfVbMpyNX_IfP7WVSHyuEWLO-H8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">We Care for Pets_</string>
+    <string name="login">login</string>
+    <string name="email">email</string>
+    <string name="password">password</string>
+    <string name="register">register</string>
+    <string name="click_to_login">Click to login</string>
+    <string name="click_to_Rgister" />
+    <string name="click_to_register">Click to register</string>
+    <string name="user_dtalis">user_dtalis</string>
+    <string name="user_detalis">user_detalis</string>
+</resources>

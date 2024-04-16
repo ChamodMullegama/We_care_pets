@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="5dp">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".category"
+        android:background="#fff"
+        android:layout_marginBottom="30dp">
+
+
+        <TextView
+            android:id="@+id/textViewTop"
+            android:layout_width="115dp"
+            android:layout_height="38dp"
+            android:layout_marginTop="60dp"
+            android:text="CATS"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.469"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageViewTop"
+            android:layout_width="300dp"
+            android:layout_height="150dp"
+            android:background="@drawable/image_border"
+            app:layout_constraintTop_toBottomOf="@+id/textViewTop"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="16dp"
+            app:srcCompat="@drawable/cute_kitten_sitting_outdoors_staring_sunset_fluffy_fur_generated_by_artificial_intelligence"
+            android:scaleType="centerCrop" />
+
+        <TextView
+            android:id="@+id/textViewCenter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DOGS"
+            android:textSize="30sp"
+            android:textAlignment="center"
+            app:layout_constraintTop_toBottomOf="@+id/imageViewTop"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="16dp" />
+
+        <ImageView
+            android:id="@+id/imageViewCenter"
+            android:layout_width="300dp"
+            android:layout_height="150dp"
+            android:background="@drawable/image_border"
+            app:layout_constraintTop_toBottomOf="@+id/textViewCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="16dp"
+            app:srcCompat="@drawable/group_various_kind_purebred_dogs_260nw_790772746"
+            android:scaleType="centerCrop" />
+
+        <TextView
+            android:id="@+id/textViewBottom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PET FISHES"
+            android:textSize="30sp"
+            android:textAlignment="center"
+            app:layout_constraintTop_toBottomOf="@+id/imageViewCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="16dp" />
+
+        <ImageView
+            android:id="@+id/imageViewBottom"
+            android:layout_width="300dp"
+            android:layout_height="150dp"
+            android:background="@drawable/image_border"
+            app:layout_constraintTop_toBottomOf="@+id/textViewBottom"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="16dp"
+            app:srcCompat="@drawable/betta_fish_displaying_its_striking_fins_vivid_colors_created_with_generative_ai_419341_17343"
+            android:scaleType="centerCrop" />
+
+        <TextView
+            android:id="@+id/textViewExtra"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BIRDS"
+            android:textSize="30sp"
+            android:textAlignment="center"
+            app:layout_constraintTop_toBottomOf="@+id/imageViewBottom"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="16dp" />
+
+        <ImageView
+            android:id="@+id/imageViewExtra"
+            android:layout_width="300dp"
+            android:layout_height="150dp"
+            android:background="@drawable/image_border"
+            app:layout_constraintTop_toBottomOf="@+id/textViewExtra"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="40dp"
+            app:srcCompat="@drawable/parrot_price_in_india"
+            android:scaleType="centerCrop" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
